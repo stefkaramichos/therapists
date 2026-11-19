@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Βοηθός αποστολής">
+  <defs>
+    <linearGradient id="body" x1="40" x2="120" y1="20" y2="132" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff7d6"/>
+      <stop offset="1" stop-color="#8ee4df"/>
+    </linearGradient>
+    <linearGradient id="flame" x1="78" x2="78" y1="112" y2="154" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffd95a"/>
+      <stop offset="1" stop-color="#ef6b3a"/>
+    </linearGradient>
+  </defs>
+  <path d="M79 141c12-7 17-17 16-31H64c-1 14 4 24 15 31Z" fill="url(#flame)"/>
+  <path d="M42 101 19 122c-4 3-3 10 2 12l31 11c5 2 10-2 10-7l1-31-21-6Z" fill="#3949ab"/>
+  <path d="M118 101 141 122c4 3 3 10-2 12l-31 11c-5 2-10-2-10-7l-1-31 21-6Z" fill="#3949ab"/>
+  <path d="M80 12c-24 15-42 50-42 87 0 14 11 25 25 25h34c14 0 25-11 25-25 0-37-18-72-42-87Z" fill="url(#body)" stroke="#1b2530" stroke-width="5" stroke-linejoin="round"/>
+  <circle cx="80" cy="68" r="19" fill="#fff" stroke="#187d87" stroke-width="6"/>
+  <circle cx="80" cy="68" r="8" fill="#3949ab"/>
+  <path d="M61 112h38" stroke="#1b2530" stroke-width="6" stroke-linecap="round"/>
+  <path d="M36 26h10M23 43h16M118 28h14M127 47h11M29 73h8M123 77h13" stroke="#d79b2d" stroke-width="5" stroke-linecap="round"/>
+</svg>

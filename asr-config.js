@@ -1,0 +1,15 @@
+window.AUTO_THERAPIST_ASR = {
+  mode: "server",
+  endpointUrl: "/api/asr",
+  healthUrl: "/health",
+  serverLabel: "Whisper · ασφαλής διαδικτυακή σύνδεση · Ελληνικά",
+  language: "el-GR",
+  audioFieldName: "audio",
+  timeoutMs: 1800000,
+  microphoneTimeoutMs: 20000,
+  headers: {},
+  responseTextPaths: ["text", "transcript", "transcription", "result.text", "results.0.text"],
+  responseAlternativesPaths: ["alternatives"],
+  responseConfidencePaths: ["confidence"],
+  responseEnginePaths: ["engine", "model"],
+};

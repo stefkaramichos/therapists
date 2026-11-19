@@ -1,0 +1,38 @@
+services:
+  asr:
+    build: .
+    restart: unless-stopped
+    environment:
+      ASR_HOST: 0.0.0.0
+      ASR_PORT: 8787
+      ASR_MODEL: ${ASR_MODEL:-large-v3}
+      ASR_DEVICE: cpu
+      ASR_COMPUTE_TYPE: int8
+      ASR_THREADS: ${ASR_THREADS:-4}
+      PUBLIC_ORIGIN: https://${DOMAIN}
+      HF_HOME: /models
+    volumes:
+      - whisper_models:/models
+    expose:
+      - "8787"
+    mem_limit: 12g
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    depends_on:
+      - asr
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      DOMAIN: ${DOMAIN}
+      AUTH_USER: ${AUTH_USER}
+      AUTH_HASH: ${AUTH_HASH}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+volumes:
+  whisper_models:
+  caddy_data:
+  caddy_config:

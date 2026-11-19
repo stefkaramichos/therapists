@@ -1,0 +1,23 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="90" cy="90" r="82" fill="#E9FBF8"/>
+  <path d="M35 132C52 103 71 90 92 93C115 96 132 110 146 136C117 153 70 154 35 132Z" fill="#4854C6"/>
+  <path d="M62 85C53 91 47 104 45 122C56 129 66 126 75 115L62 85Z" fill="#FF7B61"/>
+  <path d="M118 85C127 91 133 104 135 122C124 129 114 126 105 115L118 85Z" fill="#FF7B61"/>
+  <path d="M67 76C69 52 78 38 93 38C108 38 119 52 121 76C122 91 114 110 93 110C73 110 65 91 67 76Z" fill="#FFC94A"/>
+  <path d="M70 75C69 54 78 42 93 42C107 42 117 55 118 75C107 68 93 65 70 75Z" fill="#172232"/>
+  <path d="M72 75C75 61 83 54 96 54C110 54 117 62 118 76C105 70 91 69 72 75Z" fill="#24364A"/>
+  <path d="M64 81C64 72 72 66 82 66H104C114 66 122 72 122 81V94C122 111 111 124 93 124C75 124 64 111 64 94V81Z" fill="#FFD7B1"/>
+  <path d="M55 84C55 78 59 73 65 73H69V98H65C59 98 55 93 55 87V84Z" fill="#F3B181"/>
+  <path d="M121 73H125C131 73 135 78 135 84V87C135 93 131 98 125 98H121V73Z" fill="#F3B181"/>
+  <circle cx="81" cy="91" r="4" fill="#172232"/>
+  <circle cx="104" cy="91" r="4" fill="#172232"/>
+  <path d="M85 106C90 111 99 111 104 106" stroke="#172232" stroke-width="5" stroke-linecap="round"/>
+  <path d="M66 132L79 112H107L120 132C108 141 80 141 66 132Z" fill="#118C91"/>
+  <path d="M80 122H106L111 151C97 156 82 154 73 149L80 122Z" fill="#0D6970"/>
+  <path d="M69 133C58 143 45 147 33 143" stroke="#FFC94A" stroke-width="11" stroke-linecap="round"/>
+  <path d="M116 133C127 143 140 147 152 143" stroke="#FFC94A" stroke-width="11" stroke-linecap="round"/>
+  <path d="M82 123L94 135L106 123" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M38 49L43 62L57 64L46 73L49 87L38 80L26 87L30 73L19 64L33 62L38 49Z" fill="#FFC94A"/>
+  <path d="M140 36L144 46L155 48L147 55L149 66L140 61L131 66L133 55L125 48L136 46L140 36Z" fill="#FF7B61"/>
+  <path d="M147 92C153 91 158 95 159 101C160 107 156 112 150 113C144 114 139 110 138 104C137 98 141 93 147 92Z" fill="#118C91"/>
+</svg>

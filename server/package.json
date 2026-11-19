@@ -1,0 +1,12 @@
+{
+  "name": "auto-therapist-asr-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node openai-asr-server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

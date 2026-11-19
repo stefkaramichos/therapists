@@ -1,0 +1,13 @@
+{$DOMAIN} {
+    encode zstd gzip
+    basic_auth {
+        {$AUTH_USER} {$AUTH_HASH}
+    }
+    header {
+        Strict-Transport-Security "max-age=31536000"
+        X-Content-Type-Options nosniff
+        Referrer-Policy no-referrer
+        -Server
+    }
+    reverse_proxy asr:8787
+}
