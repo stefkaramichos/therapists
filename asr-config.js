@@ -1,5 +1,5 @@
 window.AUTO_THERAPIST_ASR = {
-  mode: "server",
+  mode: "browser",
   endpointUrl: "/api/asr",
   healthUrl: "/health",
   serverLabel: "Whisper · ασφαλής διαδικτυακή σύνδεση · Ελληνικά",
